@@ -8,3 +8,17 @@ def solution(n):
         answer.append(int(i))
     return answer
 ```
+
+List Comprehension을 이용한 문제풀이
+```python
+def solution(n):
+    answer = [int(i) for i in str(n)][::-1]
+    return answer
+```
+
+map 함수를 이용한 문제풀이
+```python
+def solution(n):
+    return list(map(int, reversed(str(n))))
+```
+map(func, *iterables)
