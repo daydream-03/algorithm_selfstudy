@@ -22,3 +22,8 @@ def solution(n):
     return list(map(int, reversed(str(n))))
 ```
 map(func, *iterables)
+```python
+def plus_1(x):
+    return int(x)+1
+print(map(plus_1, '123'))
+```
