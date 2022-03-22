@@ -8,7 +8,7 @@
 
 ```python
 # 내 풀이
-def solution(arr1, arr2):
+def solution1(arr1, arr2):
     calc = 0
     answer = []
     for k in range(len(arr1)):
